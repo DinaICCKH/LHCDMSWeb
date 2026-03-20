@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1613416671:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BackOfficeWeb\\appsettings.json",
+              "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\appsettings.json",
+              "RelativeToolTip": "BackOfficeWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-18T10:02:40.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BackOfficeWeb\\Program.cs",
+              "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Program.cs",
+              "RelativeToolTip": "BackOfficeWeb\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:52:40.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DMSController.cs",
+              "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\DMSController.cs",
+              "RelativeDocumentMoniker": "BackOfficeWeb\\Controllers\\DMSController.cs",
+              "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\DMSController.cs",
+              "RelativeToolTip": "BackOfficeWeb\\Controllers\\DMSController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:52:07.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

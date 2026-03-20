@@ -1,0 +1,490 @@
+[
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/DMS/GetCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetItemPricing",
+    "RelativePath": "api/DMS/GetItemPricing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetItems",
+    "RelativePath": "api/DMS/GetItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetPriceList",
+    "RelativePath": "api/DMS/GetPriceList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetUoM",
+    "RelativePath": "api/DMS/GetUoM",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetUoMGroup",
+    "RelativePath": "api/DMS/GetUoMGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetWhs",
+    "RelativePath": "api/DMS/GetWhs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "Login",
+    "RelativePath": "api/DMS/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateCustomer",
+    "RelativePath": "api/Masterdata/AddOrUpdateCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateItem",
+    "RelativePath": "api/Masterdata/AddOrUpdateItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemGroupCode",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemGroupName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UgpEntry",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Onhand",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "OnOrder",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsCommited",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Available",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinLevel",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxLevel",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrlServer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrlLocal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FrgnName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvUoMCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvUoMEntry",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "OcrCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OcrCode2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OcrCode3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OcrCode4",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Manufacturer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ManufacturerDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubGroupDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemBrand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemBrandDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemTypeDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProteinType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProteinTypeDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubGroup2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubGroup2Des",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Factory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FactoryDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BarCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DefEntry",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AltQty",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateItemPricing",
+    "RelativePath": "api/Masterdata/AddOrUpdateItemPricing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.ItemPricing",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdatePriceList",
+    "RelativePath": "api/Masterdata/AddOrUpdatePriceList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.PriceList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdatePromotionV2",
+    "RelativePath": "api/Masterdata/AddOrUpdatePromotionV2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.PromotionHeaderV2",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateUoM",
+    "RelativePath": "api/Masterdata/AddOrUpdateUoM",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.UoM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateUoMGroup",
+    "RelativePath": "api/Masterdata/AddOrUpdateUoMGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.UoMGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateUser",
+    "RelativePath": "api/Masterdata/AddOrUpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.MasterdataController",
+    "Method": "AddOrUpdateWhs",
+    "RelativePath": "api/Masterdata/AddOrUpdateWhs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.Whs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.POController",
+    "Method": "AddOrUpdatePO",
+    "RelativePath": "api/PO/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.PO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
