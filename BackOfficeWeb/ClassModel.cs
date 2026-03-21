@@ -139,6 +139,7 @@ namespace BackOfficeWeb
         public int? DefEntry { get; set; }
 
         public decimal? AltQty { get; set; }
+        public decimal? SellingPrice { get; set; }
     }
 
     public class ItemPricing
@@ -427,6 +428,7 @@ namespace BackOfficeWeb
         public int? DefEntry { get; set; }
 
         public decimal? AltQty { get; set; }
+        public decimal? SellingPrice { get; set; }
     }
 
     public class CustomerResult

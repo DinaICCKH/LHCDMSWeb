@@ -97,6 +97,7 @@ namespace BackOfficeWeb.Controllers
                     model.BarCode,
                     model.DefEntry,
                     model.AltQty,
+                    model.SellingPrice,
                     CreateBy = token.UserId,
                     UpdateBy = token.UserId
                 });

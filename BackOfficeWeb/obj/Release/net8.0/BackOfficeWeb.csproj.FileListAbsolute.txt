@@ -96,3 +96,4 @@ D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Release\net8.0\runtimes\w
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Release\net8.0\BackOfficeWeb.csproj.AssemblyReference.cache
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Release\net8.0\BackOfficeWeb.MvcApplicationPartsAssemblyInfo.cs
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Release\net8.0\BackOffi.03D9FDBC.Up2Date
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Release\net8.0\BackOfficeWeb.sourcelink.json

@@ -96,3 +96,4 @@ D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\refint\BackO
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.pdb
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.genruntimeconfig.cache
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\ref\BackOfficeWeb.dll
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.sourcelink.json
