@@ -564,6 +564,8 @@ namespace BackOfficeWeb
         public string? Synced { get; set; }
 
         public int? DetailEntry { get; set; }
+
+        public string? FullAddress { get; set; }
     }
 
 
