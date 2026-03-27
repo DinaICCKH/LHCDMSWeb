@@ -97,6 +97,22 @@
   },
   {
     "ContainingType": "BackOfficeWeb.Controllers.DMSController",
+    "Method": "GetVisitPlan",
+    "RelativePath": "api/DMS/GetVisitPlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackOfficeWeb.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackOfficeWeb.Controllers.DMSController",
     "Method": "GetWhs",
     "RelativePath": "api/DMS/GetWhs",
     "HttpMethod": "POST",
@@ -348,6 +364,11 @@
       },
       {
         "Name": "AltQty",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellingPrice",
         "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },

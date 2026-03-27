@@ -460,5 +460,65 @@ namespace BackOfficeWeb.Controllers
                 });
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> GetVisitPlan([FromBody] LoginRequest model)
+        {
+            try
+            {
+                var hashedPassword = PasswordHasher.HashPassword(model.Password);
+
+                var jsonBody = JsonConvert.SerializeObject(new
+                {
+                    model.UserCode,
+                    PasswordHash = hashedPassword,
+                    model.DeviceID
+                });
+
+                var resultList = await _db.VisitPlanResults
+                    .FromSqlRaw("EXEC dbo.Get_Vistplan @JsonBody",
+                        new SqlParameter("@JsonBody", jsonBody))
+                    .AsNoTracking()
+                    .ToListAsync();
+
+                var first = resultList.FirstOrDefault();
+
+                if (first == null)
+                {
+                    return BadRequest(new
+                    {
+                        success = false,
+                        message = "No data returned."
+                    });
+                }
+
+                // 🔥 Handle Unauthorized (from SP)
+                if (first.Code == 401)
+                {
+                    return Unauthorized(new
+                    {
+                        success = false,
+                        message = first.Message
+                    });
+                }
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Success",
+                    total = resultList.Count,
+                    data = resultList
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message
+                });
+            }
+        }
+
     }
 }

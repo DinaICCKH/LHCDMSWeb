@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2026-03-21T03:59:43.8676564Z||;True|2026-03-18T17:07:50.4483100+07:00||;True|2026-03-18T15:16:31.9939421+07:00||;True|2026-03-18T14:03:34.1108955+07:00||;True|2026-03-18T13:57:50.1257090+07:00||;True|2026-03-17T16:03:10.2063202+07:00||;</History>
+    <History>True|2026-03-27T08:21:36.5133465Z||;True|2026-03-27T11:33:41.6325442+07:00||;True|2026-03-21T10:59:43.8676564+07:00||;True|2026-03-18T17:07:50.4483100+07:00||;True|2026-03-18T15:16:31.9939421+07:00||;True|2026-03-18T14:03:34.1108955+07:00||;True|2026-03-18T13:57:50.1257090+07:00||;True|2026-03-17T16:03:10.2063202+07:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

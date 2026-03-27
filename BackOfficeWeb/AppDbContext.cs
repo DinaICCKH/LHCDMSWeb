@@ -29,6 +29,7 @@ namespace BackOfficeWeb
         public DbSet<UoMGroupResult> UoMGroupResults { get; set; }
         public DbSet<PriceListResult> PriceListResults { get; set; }
         public DbSet<ItemPricingResult> ItemPricingResults { get; set; }
+        public DbSet<VisitPlanResult> VisitPlanResults { get; set; }
 
         // ================================
         // Model Configuration
@@ -50,6 +51,7 @@ namespace BackOfficeWeb
             ApplyNoKey<UoMGroupResult>(modelBuilder);
             ApplyNoKey<PriceListResult>(modelBuilder);
             ApplyNoKey<ItemPricingResult>(modelBuilder);
+            ApplyNoKey<VisitPlanResult>(modelBuilder);
 
             base.OnModelCreating(modelBuilder);
         }
