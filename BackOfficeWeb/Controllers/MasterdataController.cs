@@ -10,7 +10,7 @@ namespace BackOfficeWeb.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    [Authorize] // Protect with JWT
+    //[Authorize] // Protect with JWT
     public class MasterdataController : ControllerBase
     {
         private readonly AppDbContext _db;

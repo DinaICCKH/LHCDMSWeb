@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +12,32 @@
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> a1e7a26 (Update code)
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> a1e7a26 (Update code)
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\classmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\classmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> a1e7a26 (Update code)
     }
   ],
   "DocumentGroupContainers": [
@@ -58,20 +75,34 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 1,
+>>>>>>> a1e7a26 (Update code)
               "Title": "MasterdataController.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\MasterdataController.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\Controllers\\MasterdataController.cs",
               "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\MasterdataController.cs",
               "RelativeToolTip": "BackOfficeWeb\\Controllers\\MasterdataController.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T04:36:56.598Z",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T09:59:30.029Z",
+>>>>>>> a1e7a26 (Update code)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 3,
+>>>>>>> a1e7a26 (Update code)
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\AppDbContext.cs",
@@ -83,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BackOfficeWeb.csproj",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\BackOfficeWeb.csproj",
               "RelativeDocumentMoniker": "BackOfficeWeb\\BackOfficeWeb.csproj",
@@ -96,20 +127,28 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 2,
+>>>>>>> a1e7a26 (Update code)
               "Title": "ClassModel.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\ClassModel.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\ClassModel.cs",
               "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\ClassModel.cs",
               "RelativeToolTip": "BackOfficeWeb\\ClassModel.cs",
-              "ViewState": "AgIAABwCAAAAAAAAAAAMwDUCAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0CAAAAAAAAAIAywDUCAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:42:56.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 4,
+>>>>>>> a1e7a26 (Update code)
               "Title": "DMSController.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\DMSController.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\Controllers\\DMSController.cs",

@@ -40,11 +40,9 @@ D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Data.
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Private.Windows.Core.dll
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Formats.Asn1.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\System.Text.Json.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
@@ -82,11 +80,6 @@ D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWe
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.RazorAssemblyInfo.cs
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.build.json
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.development.json
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets\msbuild.BackOfficeWeb.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets\msbuild.build.BackOfficeWeb.props
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BackOfficeWeb.props
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BackOfficeWeb.props
-D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\scopedcss\bundle\BackOfficeWeb.styles.css
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\scopedcss\projectbundle\BackOfficeWeb.bundle.scp.css
@@ -97,3 +90,11 @@ D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWe
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.genruntimeconfig.cache
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\ref\BackOfficeWeb.dll
 D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\BackOfficeWeb.sourcelink.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\bin\Debug\net8.0\BackOfficeWeb.staticwebassets.endpoints.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Flutter\Project\LHC\BackOfficeWeb\BackOfficeWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

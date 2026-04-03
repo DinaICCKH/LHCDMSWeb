@@ -1,0 +1,1609 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "BackOfficeWeb",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/DMS/Login": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetItems": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetCustomer": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetWhs": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetUoM": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetUoMGroup": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetPriceList": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetItemPricing": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DMS/GetVisitPlan": {
+      "post": {
+        "tags": [
+          "DMS"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateItem": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Mode": {
+                    "type": "string"
+                  },
+                  "ItemCode": {
+                    "type": "string"
+                  },
+                  "ItemName": {
+                    "type": "string"
+                  },
+                  "ItemGroupCode": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ItemGroupName": {
+                    "type": "string"
+                  },
+                  "UgpEntry": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Onhand": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "OnOrder": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "IsCommited": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Available": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "MinLevel": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "MaxLevel": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "ImageUrlServer": {
+                    "type": "string"
+                  },
+                  "ImageUrlLocal": {
+                    "type": "string"
+                  },
+                  "FrgnName": {
+                    "type": "string"
+                  },
+                  "InvUoMCode": {
+                    "type": "string"
+                  },
+                  "InvUoMEntry": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UpdatedDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "OcrCode": {
+                    "type": "string"
+                  },
+                  "OcrCode2": {
+                    "type": "string"
+                  },
+                  "OcrCode3": {
+                    "type": "string"
+                  },
+                  "OcrCode4": {
+                    "type": "string"
+                  },
+                  "Manufacturer": {
+                    "type": "string"
+                  },
+                  "ManufacturerDes": {
+                    "type": "string"
+                  },
+                  "SubGroup": {
+                    "type": "string"
+                  },
+                  "SubGroupDes": {
+                    "type": "string"
+                  },
+                  "ItemBrand": {
+                    "type": "string"
+                  },
+                  "ItemBrandDes": {
+                    "type": "string"
+                  },
+                  "ItemType": {
+                    "type": "string"
+                  },
+                  "ItemTypeDes": {
+                    "type": "string"
+                  },
+                  "ProteinType": {
+                    "type": "string"
+                  },
+                  "ProteinTypeDes": {
+                    "type": "string"
+                  },
+                  "SubGroup2": {
+                    "type": "string"
+                  },
+                  "SubGroup2Des": {
+                    "type": "string"
+                  },
+                  "Factory": {
+                    "type": "string"
+                  },
+                  "FactoryDes": {
+                    "type": "string"
+                  },
+                  "BarCode": {
+                    "type": "string"
+                  },
+                  "DefEntry": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "AltQty": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "SellingPrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "imageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Mode": {
+                  "style": "form"
+                },
+                "ItemCode": {
+                  "style": "form"
+                },
+                "ItemName": {
+                  "style": "form"
+                },
+                "ItemGroupCode": {
+                  "style": "form"
+                },
+                "ItemGroupName": {
+                  "style": "form"
+                },
+                "UgpEntry": {
+                  "style": "form"
+                },
+                "Onhand": {
+                  "style": "form"
+                },
+                "OnOrder": {
+                  "style": "form"
+                },
+                "IsCommited": {
+                  "style": "form"
+                },
+                "Available": {
+                  "style": "form"
+                },
+                "MinLevel": {
+                  "style": "form"
+                },
+                "MaxLevel": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "ImageUrlServer": {
+                  "style": "form"
+                },
+                "ImageUrlLocal": {
+                  "style": "form"
+                },
+                "FrgnName": {
+                  "style": "form"
+                },
+                "InvUoMCode": {
+                  "style": "form"
+                },
+                "InvUoMEntry": {
+                  "style": "form"
+                },
+                "UpdatedDate": {
+                  "style": "form"
+                },
+                "OcrCode": {
+                  "style": "form"
+                },
+                "OcrCode2": {
+                  "style": "form"
+                },
+                "OcrCode3": {
+                  "style": "form"
+                },
+                "OcrCode4": {
+                  "style": "form"
+                },
+                "Manufacturer": {
+                  "style": "form"
+                },
+                "ManufacturerDes": {
+                  "style": "form"
+                },
+                "SubGroup": {
+                  "style": "form"
+                },
+                "SubGroupDes": {
+                  "style": "form"
+                },
+                "ItemBrand": {
+                  "style": "form"
+                },
+                "ItemBrandDes": {
+                  "style": "form"
+                },
+                "ItemType": {
+                  "style": "form"
+                },
+                "ItemTypeDes": {
+                  "style": "form"
+                },
+                "ProteinType": {
+                  "style": "form"
+                },
+                "ProteinTypeDes": {
+                  "style": "form"
+                },
+                "SubGroup2": {
+                  "style": "form"
+                },
+                "SubGroup2Des": {
+                  "style": "form"
+                },
+                "Factory": {
+                  "style": "form"
+                },
+                "FactoryDes": {
+                  "style": "form"
+                },
+                "BarCode": {
+                  "style": "form"
+                },
+                "DefEntry": {
+                  "style": "form"
+                },
+                "AltQty": {
+                  "style": "form"
+                },
+                "SellingPrice": {
+                  "style": "form"
+                },
+                "imageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateCustomer": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateWhs": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Whs"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Whs"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Whs"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdatePriceList": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceList"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceList"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceList"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateItemPricing": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemPricing"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemPricing"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemPricing"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdatePromotionV2": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromotionHeaderV2"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromotionHeaderV2"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromotionHeaderV2"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateUoM": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateUoMGroup": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoMGroup"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoMGroup"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UoMGroup"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Masterdata/AddOrUpdateUser": {
+      "post": {
+        "tags": [
+          "Masterdata"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PO/Save": {
+      "post": {
+        "tags": [
+          "PO"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Customer": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardFName": {
+            "type": "string",
+            "nullable": true
+          },
+          "groupCode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "groupName": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "tel1": {
+            "type": "string",
+            "nullable": true
+          },
+          "tel2": {
+            "type": "string",
+            "nullable": true
+          },
+          "mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactPersonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymenterm": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceList": {
+            "type": "string",
+            "nullable": true
+          },
+          "creditLimit": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItemPricing": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceListCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "uoMEntry": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "userCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "deviceID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PO": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "docEntry": {
+            "type": "string",
+            "nullable": true
+          },
+          "branch": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardName": {
+            "type": "string",
+            "nullable": true
+          },
+          "postingDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dueDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "exchangeRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "vatStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentTerm": {
+            "type": "string",
+            "nullable": true
+          },
+          "saleCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "remark": {
+            "type": "string",
+            "nullable": true
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "dpmAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "vatAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "paidAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "docAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "docStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "sapCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "sapStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "apiStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "apiErrorMessage": {
+            "type": "string",
+            "nullable": true
+          },
+          "doCur": {
+            "type": "string",
+            "nullable": true
+          },
+          "poDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PO1"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PO1": {
+        "type": "object",
+        "properties": {
+          "docEntry": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineNum": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "baseType": {
+            "type": "string",
+            "nullable": true
+          },
+          "baseEntry": {
+            "type": "string",
+            "nullable": true
+          },
+          "baseLineNum": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "uom": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "vat": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "warehouse": {
+            "type": "string",
+            "nullable": true
+          },
+          "ocrCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "ocrCode2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ocrCode3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ocrCode4": {
+            "type": "string",
+            "nullable": true
+          },
+          "project": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "remark": {
+            "type": "string",
+            "nullable": true
+          },
+          "isFather": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PriceList": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "listNum": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "listName": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PromotionHeaderV2": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "docEntry": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "canceled": {
+            "type": "string",
+            "nullable": true
+          },
+          "object": {
+            "type": "string",
+            "nullable": true
+          },
+          "logInst": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "userSign": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "transfered": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "createTime": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "updateDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateTime": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dataSource": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_RefNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_FromDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "u_ToDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "u_CardCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_CardName": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_PromotionType": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_ApplyType": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_RemarkCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_Remark": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_ItemGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_Attactment": {
+            "type": "string",
+            "nullable": true
+          },
+          "promotionRows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PromotionRowV2"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PromotionRowV2": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "object": {
+            "type": "string",
+            "nullable": true
+          },
+          "logInst": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "u_LevelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_UOMType": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "u_StartQty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_FreeQty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_PromotionPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_PromotionAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_TransportationPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_TransportionAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "u_TransportationAmountKH": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UoM": {
+        "type": "object",
+        "properties": {
+          "uoMEntry": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uoMCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "mode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UoMGroup": {
+        "type": "object",
+        "properties": {
+          "ugpEntry": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uoMEntry": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ugpName": {
+            "type": "string",
+            "nullable": true
+          },
+          "uoMCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "baseQty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "altQty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "mode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Users": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "profile": {
+            "type": "string",
+            "nullable": true
+          },
+          "companyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userType": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "slpCode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isWebUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "isEndofDay": {
+            "type": "string",
+            "nullable": true
+          },
+          "manager": {
+            "type": "string",
+            "nullable": true
+          },
+          "deviceID": {
+            "type": "string",
+            "nullable": true
+          },
+          "printerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "printerMac": {
+            "type": "string",
+            "nullable": true
+          },
+          "mode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Whs": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "whsCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "whsName": {
+            "type": "string",
+            "nullable": true
+          },
+          "whsStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "shows": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "DMS"
+    },
+    {
+      "name": "Masterdata"
+    },
+    {
+      "name": "PO"
+    }
+  ]
+}

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\classmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\classmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|solutionrelative:backofficeweb\\backofficeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5490194B-3718-4DD1-9AE8-76470BC13D57}|BackOfficeWeb\\BackOfficeWeb.csproj|d:\\flutter\\project\\lhc\\backofficeweb\\backofficeweb\\controllers\\dmscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MasterdataController.cs",
+              "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\MasterdataController.cs",
+              "RelativeDocumentMoniker": "BackOfficeWeb\\Controllers\\MasterdataController.cs",
+              "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\MasterdataController.cs",
+              "RelativeToolTip": "BackOfficeWeb\\Controllers\\MasterdataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T09:59:30.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\AppDbContext.cs",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BackOfficeWeb.csproj",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\BackOfficeWeb.csproj",
               "RelativeDocumentMoniker": "BackOfficeWeb\\BackOfficeWeb.csproj",
@@ -74,23 +91,24 @@
               "RelativeToolTip": "BackOfficeWeb\\BackOfficeWeb.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-21T03:51:53.725Z"
+              "WhenOpened": "2026-03-21T03:51:53.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ClassModel.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\ClassModel.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\ClassModel.cs",
               "ToolTip": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\ClassModel.cs",
               "RelativeToolTip": "BackOfficeWeb\\ClassModel.cs",
-              "ViewState": "AgIAABwCAAAAAAAAAAAMwDUCAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0CAAAAAAAAAIAywDUCAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:42:56.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DMSController.cs",
               "DocumentMoniker": "D:\\Flutter\\Project\\LHC\\BackOfficeWeb\\BackOfficeWeb\\Controllers\\DMSController.cs",
               "RelativeDocumentMoniker": "BackOfficeWeb\\Controllers\\DMSController.cs",
@@ -98,7 +116,8 @@
               "RelativeToolTip": "BackOfficeWeb\\Controllers\\DMSController.cs",
               "ViewState": "AgIAAOsBAAAAAAAAAAAIwAgCAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T09:52:07.28Z"
+              "WhenOpened": "2026-03-18T09:52:07.28Z",
+              "EditorCaption": ""
             }
           ]
         }
